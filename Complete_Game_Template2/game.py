@@ -76,7 +76,7 @@ def print_inventory_items(items):
 
     """
     output = "You have "
-    output = output = list_of_items(items)
+    output = output + list_of_items(items)
     print(output + ".")
     print("")
 
